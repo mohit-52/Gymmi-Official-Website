@@ -1,0 +1,89 @@
+/* Navigation bar  */
+
+#navbar{
+   flex-direction: column;
+}
+
+#navbar ul{
+    margin-right: 680px;
+}
+
+#navbar ul li a{
+    margin-bottom: 150px;
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+/* Home section */
+
+#home{
+    display: inline-block;
+    flex-direction: column;
+    padding: 55px 80px;
+  }
+
+  #home::before{
+    content: "";
+    position: absolute;
+    background: url(img/bg3.jpg) no-repeat center center/cover ; 
+    height: 80%;
+    width: 105%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.70;
+  }
+
+.mainname {
+    margin-left: 1.9rem;
+    color: red;
+    display: inline;
+    padding: 0;
+    font-size: 3rem;
+    font-weight: 400;
+  }
+  
+  .container h3 {
+    margin-left: 1rem;
+    font-size: 0.4;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .container h1 {
+    margin-left: 2.2rem;
+    font-size: 0.70rem ;
+    margin-top: -0.68rem;
+    letter-spacing: 0.15rem;
+  }
+
+.circle {
+  display: none;
+  }
+
+  /* button of home page  */
+  .btn {
+    margin-left: 5rem;
+    width: 90px;
+    height: 30px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.8);
+    border-radius: 40px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  .btn:hover{
+    display: none;
+  }
+  
+/* Social media  */
+.socialmedia{
+    margin-top: 330px;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    padding-bottom: 2rem;
+  }

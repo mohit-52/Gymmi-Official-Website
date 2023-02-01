@@ -1,0 +1,102 @@
+/* root  */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* Navigation bar  */
+
+#navbar{
+    flex-direction: column;
+ }
+ 
+ #navbar ul{
+     margin-right: 680px;
+ }
+ 
+ #navbar ul li a{
+     margin-bottom: 150px;
+     font-size: 1rem;
+     padding: 0px 7px;
+     padding-bottom: 8px;
+ }
+ 
+ /* blog section */
+ 
+ #blog{
+     display: inline-block;
+     flex-direction: column;
+     padding: 55px 80px;
+   }
+ 
+   #blog::before{
+     content: "";
+     position: absolute;
+     background: url(img/bg2.jpg) no-repeat center center/cover ; 
+     height: 80%;
+     width: 105%;
+     top: 0px;
+     left: 0px;
+     z-index: -1;
+     opacity: 0.70;
+   }
+ 
+    .mainname{
+        margin-left: 0.5rem;
+        color: red;
+        display: inline;
+        font-size: 2rem;
+        font-weight: 400;
+      }
+ 
+ .circle {
+   display: none;
+   }
+
+   /* afterblog */
+ 
+   #maincontent{
+    justify-content: center;
+    text-align: center;
+    margin: 30rem 25rem;
+    font-size: 0.4rem;
+
+}
+
+
+
+.blog1 h3{
+    letter-spacing: 0rem;
+    font-family: 'Tangerine', cursive;
+}
+  
+.line{
+    width: 150px;
+    margin: 3rem auto;
+}
+
+   /* button of home page  */
+   .btn {
+     margin-left: 5rem;
+     width: 90px;
+     height: 30px;
+     color: white;
+     background-color: rgba(255, 0, 0, 0.8);
+     border-radius: 40px;
+     text-align: center;
+     font-size: 0.9rem;
+   }
+ 
+   .btn:hover{
+     display: none;
+   }
+   
+ /* Social media  */
+ .socialmedia{
+     margin-top: 460px;
+ }
+ 
+ .copyright {
+     font-size: 0.8rem;
+     padding-bottom: 2rem;
+   }
+ 

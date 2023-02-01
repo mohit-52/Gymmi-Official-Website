@@ -1,0 +1,170 @@
+/* root section  */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navigation bar section  */
+#logo {
+    margin: 10px 35px;
+}
+
+#logo img {
+    width: 80px;
+    height: 80px;
+    margin: 3px 35px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+  }
+  
+  #navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.4;
+  }
+
+#navbar ul {
+    display: flex;
+    margin-left: 42rem;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 1px 10px;
+    padding: 3px 18px;
+    color: rgb(1, 1, 1);
+    border-radius: 15px;
+}
+
+#navbar ul li a:hover {
+    color: red;
+}
+#navbar ul li .active {
+    color: red;
+}
+
+/* about section */
+#contact {
+    display: inline-block;
+    flex-direction: column;
+    padding: 165px 478px;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    background: url(img/bg4.jpg) no-repeat center center/cover;
+    height: 80%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.65;
+}
+
+/* inside about page */
+
+.mainname {
+    color: red;
+    display: inline;
+    padding: 0;
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+#contact h1 {
+    margin: 0;
+    margin-top: -0.68rem;
+    letter-spacing: 0.25rem;
+  }
+
+/* Socialmedia secton  */
+
+.socialmedia {
+    display: flex;
+    height: 10rem;
+    width: 100%;
+    place-items: center;
+    color: #fff;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.socialicon {
+    display: inline-flex;
+    margin: 2rem;
+    margin-top: .5rem;
+
+}
+
+.socialicon .icon {
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    z-index: 2;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.socialicon .icon a {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    display: block;
+    /* background: #fff; */
+    text-align: center;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 0 10 10 rgba(0, 0, 0, 0.1);
+}
+
+.socialicon .icon a i {
+    color: rgb(143, 143, 143);
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.socialicon .icon:hover a i {
+    color: rgb(62, 62, 62);
+}
+
+.socialicon .icon:hover a {
+    color: #fff;
+}
+
+.copyright {
+    display: inline-block;
+    font-size: 1rem;
+    color: gray;
+    /* margin-bottom: 1rem; */
+    padding-bottom: 2rem;
+}
+
+.slogo img {
+    width: 5rem;
+    height: auto;
+}
+
+.tandd {
+    color: gray;
+    padding-bottom: 2rem;
+
+}
